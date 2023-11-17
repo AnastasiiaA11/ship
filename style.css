@@ -1,0 +1,52 @@
+.ship {
+	width: 600px;
+	height: 200px;
+	background-color: lime;
+	border-style: 20px;
+	box-sizing: border-box;
+	margin: 0 auto;
+	margin-top: 400px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 500px;
+	border-bottom-right-radius: 500px;
+
+}
+
+p {
+	font-size: 50px;
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Handlee', cursive;
+	color: bisque;
+}
+
+p::after {
+	content: url(img/zoo_ecosystem_exotic_wildlife_wild_animal_fauna_nature_cat_icon_259307.png);
+}
+
+.ship::before {
+	content: "";
+	width: 10px;
+	height: 400px;
+	background-color: lime;
+	box-sizing: border-box;
+	position: absolute;
+	right: 900px;
+	bottom: 450px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.ship::after {
+	content: "";
+	width: 200px;
+	height: 350px;
+	background-color: rgb(255, 0, 170);
+	box-sizing: border-box;
+	position: absolute;
+	right: 910px;
+	bottom: 500px;
+	border-top-left-radius: 10000px;
+	border-bottom-left-radius: 5000px;
+}
